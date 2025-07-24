@@ -1,0 +1,13 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    text-align: center;
+    color: rgb(160, 6, 114);
+}
+
+ol,ul, nav{
+    text-align: center;
+    list-style-position: inside;
+}
