@@ -21,3 +21,10 @@ p{
     font-size: 20px;
     text-align: center;
 }
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: #d60d0d;
+    margin-top: 5%;
+}
