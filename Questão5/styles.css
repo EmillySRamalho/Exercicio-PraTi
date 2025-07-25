@@ -1,0 +1,35 @@
+body{
+    background-image: url("./img/agua.jpg");
+    background-size: cover;
+}
+
+img{
+    width: 60%;
+    height: 60vh;
+    display: block;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+
+}
+
+h2{
+    text-align: center;
+    color: rgb(17, 8, 31);
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+    box-shadow: 0 0 10px #340999;
+}
+
+.destaque{
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(17, 8, 31);
+    background-color: #9aa6da;
+    text-align: center;
+    padding: 10px;
+}
