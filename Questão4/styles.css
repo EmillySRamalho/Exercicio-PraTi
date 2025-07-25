@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(230, 228, 228);
+}
+header{
+    background-color: #307c3a;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid #333
+
+}
+
+main{
+    background-color: rgb(245, 234, 240);
+    padding: 20px;
+    text-align: justify;
+    text-align: center;
+    border: 2px solid #333;
+    margin-top: 5px;
+}
+
+
+h1{
+    color: rgb(54, 11, 11)
+}
+
+p{
+    color: #0c0c0c;
+}
+
+footer{
+    background-color: #e7a8a8;
+    color: white;
+    text-align: center;
+    padding: 6px 0;
+    margin-top: 10px;
+    border: 2px solid #000000
+}
