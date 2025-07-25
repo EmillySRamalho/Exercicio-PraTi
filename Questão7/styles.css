@@ -1,0 +1,59 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+  header {
+    background-color: #640000;
+    padding: 10px 20px;
+    position: relative;
+  }
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 0;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    width: 30px;
+    height: 22px;
+    position: relative;
+  }
+  .hamburger span {
+    background: white;
+    display: block;
+    height: 4px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+  }
+
+  @media (max-width: 600px) {
+    nav {
+      display: none;
+      flex-direction: column;
+      background-color: #490505;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      padding: 10px 20px;
+    }
+    .hamburger {
+      display: block;
+    }
+    #menu-toggle:checked + .hamburger + nav {
+      display: flex;
+    }
+  }
