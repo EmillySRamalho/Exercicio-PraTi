@@ -20,6 +20,7 @@ Após clonar o repositório, você pode abrir os arquivos no Visual Studio Code.
 Certifique-se de criar os seguintes arquivos para o projeto:
 
 index.html
+
 styles.css
 
 Esses arquivos serão usados para estruturar e estilizar a interface do projeto.
